@@ -1,0 +1,253 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  color: white;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color: #923cb5;
+  background: linear-gradient(to right, rgb(82, 19, 82),rgb(57, 8, 57)20%, rgb(15, 0, 15) 74%);
+  font-family: Rubik;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+  margin-bottom: 5px;
+  height: 40px;
+  position: fixed;
+  column-gap: 560px;
+  z-index: 100;
+  background: linear-gradient(to right, rgb(82, 19, 82),rgb(57, 8, 57)20%, rgb(15, 0, 15) 74%); 
+}
+
+a{
+  text-decoration: none;
+  padding:5px 10px 5px 10px;
+}
+
+.title{
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+.nav{
+  display: flex;
+  column-gap: 45px;
+  font-size: 15px;
+  font-weight: 500; 
+  height: 30px;
+}
+
+.nav a:hover{
+  background-color:rgb(125, 50, 125);
+  border-radius: 5px;  
+}
+
+.nav a:active{
+  background-color: rgb(189, 92, 189);
+  opacity:0.8;
+}
+
+/*BODY*/
+.body{
+  display: flex;
+  justify-content:space-between ;
+  column-gap: 150px;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 55px;
+  height: 604px;
+}
+
+.image{
+  display: flex;
+  position: relative;  
+}
+
+.img{
+
+  width:300px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 25px;
+  border-radius: 100px;  
+}
+
+.shape{
+  width:350px;
+  height: 350px;
+  border-radius: 200px;
+  background:linear-gradient(to right,rgb(67, 38, 67),rgb(36, 1, 36)50%);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.text{
+  margin:0; 
+}
+
+.hi,.name{
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.peru{
+  color: rgb(141, 17, 141);
+  font-weight: 500;
+  margin:0;
+}
+
+
+.para{
+  font-size: 23px;
+  margin:0;
+}
+
+.web{
+  font-size: 35px;
+  font-weight: 500;
+  margin:0;
+}
+
+.line{
+  font-size: 28px;
+  margin-top:33px;
+  margin:0;
+}
+
+/*ABOUT*/
+
+.about-me-page{
+  height: 604px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 100px;
+}
+
+.ima{
+  margin-left: 100px;
+}
+
+.photo{
+  width:300px;
+  border-radius: 400px;
+}
+
+.about-me{
+  margin-right: 100px;
+}
+
+/*SKILLS*/
+
+.skills-page{
+  height:504px;
+  display: flex;
+  flex-direction: column;
+  margin: 0; 
+  align-items: center;
+  padding-top:60px;
+}
+
+.skill-info{
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.html-icon, 
+.css-icon, 
+.js-icon{
+  width:150px;
+}
+
+.icon-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.html,
+.css,
+.js{
+  border:5px solid purple;
+  width:350px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:15px 15px 15px 15px;
+}
+
+.text-block{
+  margin:10px 10px 10px 10px;
+}
+
+/*PROJECT*/
+
+.project-page{
+  height:504px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0px 200px 0px;
+  padding-top:50px;
+}
+
+.utube-img{
+  width:360px;
+  height:230px;
+  object-fit:cover;
+  object-position: left;
+  border-radius: 20px;
+  border:5px solid rgb(162, 66, 162);
+}
+
+/*CONTACT*/
+
+.contact-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0px 200px 50px 0px;
+  padding-top:50px;
+}
+
+.want{
+  width:450px;
+  margin-left: 100px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.details-icon{
+  width:40px;
+}
+
+.insta,
+.phone,
+.mail,
+.fb{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.copyright{
+  font-size: 13px;
+  margin-left: 8px;
+  margin-bottom:8px;
+}
